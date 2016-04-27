@@ -21,6 +21,14 @@
      }
   }
 
+.button{
+  background-color: white;
+  color: teal;
+  padding: 10px;
+  height: 50px;
+  width: 30px;
+  border-radius: 5px;
+}
 
 .fadeBox{
 	display:block;
@@ -32,7 +40,7 @@
 	background-color: rgba(0,0,0,.6);
 }
 
-.spinner{
+.spinner1{
     -webkit-animation: infinite-spinning 1s infinite linear;
     animation: infinite-spinning 1s infinite linear;
 	height: 50px;
@@ -40,6 +48,30 @@
 	display:block;
 	margin:auto;
 	margin-top: 25%;
-	background-image: url("http://www.officialpsds.com/images/thumbs/Fantastic-Spiral-psd94266.png");
+	background-image: url(swirl1.png);
 	background-size: contain;
+}
+
+.spinner2{
+    -webkit-animation: infinite-spinning 1s infinite linear;
+    animation: infinite-spinning 1s infinite linear;
+  height: 50px;
+  width: 50px;
+  display:block;
+  margin:auto;
+  margin-top: 25%;
+  background-image: url(swirl2.png);
+  background-size: contain;
+}
+
+.spinner3{
+    -webkit-animation: infinite-spinning 1s infinite linear;
+    animation: infinite-spinning 1s infinite linear;
+  height: 50px;
+  width: 50px;
+  display:block;
+  margin:auto;
+  margin-top: 25%;
+  background-image: url(swirl3.png);
+  background-size: contain;
 }
